@@ -28,32 +28,14 @@
 
 .offers-container {
     margin-top: 50px;
-    text-align: center;
-    display: flex;
     flex-direction: column;
 }
 
 .offers-item {
-    margin: auto;
     margin-bottom: 50px;
     margin-left: 50px;
     display: flex;
-}
-
-
-
-@media (min-width: 550px) {
-    .offers-item {
-        text-align: left;
-        /* justify-content: center; */
-        /* align-content: center; */
-        margin-left: auto;
-        align-items: flex-start;
-    }
-
-    .offers-container {
-        /* display: flex; */
-    }
+    text-align: center;
 }
 
 @media (max-width: 550px) {
@@ -65,6 +47,23 @@
         margin-bottom: 50px;
     }
 }
+
+
+@media (min-width: 550px) {
+    .offers-container {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;   
+    }
+    .offers-item {
+        text-align: left;
+        align-self: center;
+        width: 80vw;
+    }
+
+
+}
+
 
 .offers-item__image-container {
     display: inline;
