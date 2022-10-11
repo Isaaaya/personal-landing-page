@@ -8,4 +8,13 @@
 
 :root {
     --text-font: "Lato", sans-serif;
+    --icon-color: orange;
+}
+
+input[type="text"] {
+    width: 175px;
+}
+
+.offers-item__image {
+    width: 60px;
 }

@@ -1,12 +1,56 @@
 .search {
-    margin: 60px;
-    padding: 40px;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.search__form-container {
+    margin-top: 15px;
+}
+
+.search__title {
+    font-size: 24px;
+}
+
+.search__form-submit-input {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+@media (min-width: 650px) {
+    .search {
+        margin-top: 70px;
+    }
+}
+
+.offers-container {
+    margin-top: 50px;
     text-align: center;
     display: flex;
     flex-direction: column;
 }
 
-.search__form-submit-input {
-    display: block;
-    margin: auto auto;
+.offers-item {
+    margin: auto;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    display: flex;
+}
+
+
+
+@media (min-width: 550px) {
+    .offers-item {
+        text-align: left;
+    }
+}
+
+
+.offers-item__image-container {
+    display: inline;
+    align-self: flex-start;
+    margin-right: 20px;
 }
