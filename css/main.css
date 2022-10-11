@@ -48,9 +48,19 @@
     }
 }
 
+@media (max-width: 550px) {
+    .offers-item__image {
+        display: none;
+    }
+    .offers-item {
+        margin: auto;
+        margin-bottom: 50px;
+    }
+}
 
 .offers-item__image-container {
     display: inline;
     align-self: flex-start;
     margin-right: 20px;
 }
+
