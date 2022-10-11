@@ -9,7 +9,11 @@
 .header__nav  {
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
+    position: fixed;
+    top: 0;
+    background-color: #eeeeee;
+    width: 100%;
+
 }
 
 .header__nav-menu {
@@ -24,7 +28,6 @@
 
 @media (min-width: 600px) {
     .header__nav {
-        margin-top: 10px;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -32,7 +35,6 @@
 
 @media (min-width: 650px) {
     .header__nav-menu {
-        margin-top: 10px;
         display: flex;
         flex-direction: row;
         align-items: center;
