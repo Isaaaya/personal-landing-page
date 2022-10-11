@@ -14,6 +14,9 @@
 
 .cards {
     margin-top: 50px;
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 40px;
 }
 
 .cards__item-title {
@@ -37,10 +40,19 @@
     font-weight: 600;
 }
 
+.cards__item-select {
+    background-color: #ffe54b;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-decoration: none;
+    color: black;
+}
+
 @media (min-width: 800px) {
     .cards {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 10px;
+        gap: 5px;
     }
 }

@@ -15,8 +15,14 @@
 
 input[type="text"] {
     width: 175px;
+    padding: 5px;
 }
 
 .offers-item__image {
     width: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
