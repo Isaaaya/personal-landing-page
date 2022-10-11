@@ -26,12 +26,12 @@
     .offers-container {
         display: flex;
         flex-direction: column;
-        margin-left: auto;   
     }
     .offers-item {
         text-align: left;
         align-self: center;
         width: 80vw;
+        margin-left: auto;
     }
 
 
